@@ -83,7 +83,7 @@
 		compatible = "zmk,combos";
 		combo_sqt {
 			timeout-ms = <50>;
-			key-positions = <6 7>;
+			key-positions = <5 6>;
 			bindings = <&kp SQT>;
 		};
 		combo_gesc 
