@@ -86,16 +86,22 @@
 			key-positions = <5 6>;
 			bindings = <&kp SQT>;
 		};
-		combo_gesc 
+		combo_esc 
 		{
-			timeout-ms = <30>;
+			timeout-ms = <35>;
 			key-positions = <0 1>;
-			bindings = <&com_col GRAVE ESC>;
+			bindings = <&kp ESC>;
+		};
+			combo_grave 
+		{
+			timeout-ms = <40>;
+			key-positions = <0 1 2>;
+			bindings = <&kp GRAVE>;
 		};
 		combo_tab 
 		{
-			timeout-ms = <35>;
-			key-positions = <11 12>;
+			timeout-ms = <40>;
+			key-positions = <10 11 12>;
 			bindings = <&kp TAB>;
 		};
 		// combo_mnxt 
